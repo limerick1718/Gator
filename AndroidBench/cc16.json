@@ -1,0 +1,71 @@
+{
+	"BASE_DIR"		: "",
+	"BASE_PARAM"	: "-g",
+	"BASE_CLIENT"	: "EnergyAnalysisClient",
+	"BASE_CLIENT_PARAM"	: "-clientParam WTPK5",
+
+	"osmdroid"	: {
+		"relative-path"	: "APKs/CC16/osmdroid.apk",
+		"append-param" : "",
+		"append-client-param"	: "",
+		"override-client"	: "",
+		"override-param" : "",
+		"override-client-param"	: ""
+	},
+	"recycle-locator"	:	{
+		"relative-path" : "APKs/CC16/recycle-locator.apk",
+		"append-param" : ""
+	},
+	"sofia": {
+		"relative-path"	: "APKs/CC16/sofia.apk",
+		"append-param" : ""
+	},
+	"ushahidi": {
+		"relative-path"	: "APKs/CC16/ushahidi.apk",
+		"append-param" : ""
+	},
+	"droidar": {
+		"relative-path"	: "APKs/CC16/droidar.apk",
+		"append-param" : ""
+	},
+	"osmdroid-fixed": {
+		"relative-path"	: "APKs/CC16/osmdroid-fixed.apk",
+		"append-param" : ""
+	},
+	"recycle-locator-fixed": {
+		"relative-path"	: "APKs/CC16/recycle-locator-fixed.apk",
+		"append-param" : ""
+	},
+	"sofia-fixed": {
+		"relative-path"	: "APKs/CC16/sofia-fixed.apk",
+		"append-param" : ""
+	},
+	"ushahidi-fixed": {
+		"relative-path"	: "APKs/CC16/ushahidi-fixed.apk",
+		"append-param" : ""
+	},
+	"droidar-fixed": {
+		"relative-path"	: "APKs/CC16/droidar-fixed.apk",
+		"append-param" : ""
+	},
+	"speedometer": {
+		"relative-path"	: "APKs/CC16/speedometer.apk",
+		"append-param" : ""
+	},
+	"heregps": {
+		"relative-path"	: "APKs/CC16/heregps.apk",
+		"append-param" : ""
+	},
+	"whereami": {
+		"relative-path"	: "APKs/CC16/whereami.apk",
+		"append-param" : ""
+	},
+	"locdemo": {
+		"relative-path"	: "APKs/CC16/locdemo.apk",
+		"append-param" : ""
+	},
+	"wigle": {
+		"relative-path"	: "APKs/CC16/wigle.apk",
+		"append-param" : ""
+	}
+}

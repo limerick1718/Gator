@@ -1,0 +1,91 @@
+{
+	"BASE_DIR"		: "",
+	"BASE_PARAM"	: "",
+	"BASE_CLIENT"	: "Ch5Client",
+	"BASE_CLIENT_PARAM"	: "",
+
+	"apv"	: {
+		"relative-path"	: "APKs/CGO14ASE15/apv.apk",
+		"append-param" : "",
+		"append-client-param"	: "",
+		"override-client"	: "",
+		"override-param" : "",
+		"override-client-param"	: ""
+	},
+	"astrid"	:	{
+		"relative-path" : "APKs/CGO14ASE15/astrid.apk",
+		"append-param" : ""
+	},
+	"barcodescanner": {
+		"relative-path"	: "APKs/CGO14ASE15/barcodescanner.apk",
+		"append-param" : ""
+	},
+	"beem": {
+		"relative-path"	: "APKs/CGO14ASE15/beem.apk",
+		"append-param" : ""
+	},
+	"connectbot": {
+		"relative-path"	: "APKs/CGO14ASE15/connectbot.apk",
+		"append-param" : ""
+	},
+	"fbreader": {
+		"relative-path"	: "APKs/CGO14ASE15/fbreader.apk",
+		"append-param" : ""
+	},
+	"k9": {
+		"relative-path"	: "APKs/CGO14ASE15/k9.apk",
+		"append-param" : ""
+	},
+	"keepassdroid": {
+		"relative-path"	: "APKs/CGO14ASE15/keepassdroid.apk",
+		"append-param" : ""
+	},
+	"mileage": {
+		"relative-path"	: "APKs/CGO14ASE15/mileage.apk",
+		"append-param" : ""
+	},
+	"mytracks": {
+		"relative-path"	: "APKs/CGO14ASE15/mytracks.apk",
+		"append-param" : ""
+	},
+	"notepad": {
+		"relative-path"	: "APKs/CGO14ASE15/notepad.apk",
+		"append-param" : ""
+	},
+	"npr": {
+		"relative-path"	: "APKs/CGO14ASE15/npr.apk",
+		"append-param" : ""
+	},
+	"openmanager": {
+		"relative-path"	: "APKs/CGO14ASE15/openmanager.apk",
+		"append-param" : ""
+	},
+	"opensudoku": {
+		"relative-path"	: "APKs/CGO14ASE15/opensudoku.apk",
+		"append-param" : ""
+	},
+	"sipdroid": {
+		"relative-path"	: "APKs/CGO14ASE15/sipdroid.apk",
+		"append-param" : ""
+	},
+	"supergenpass": {
+		"relative-path"	: "APKs/CGO14ASE15/supergenpass.apk",
+		"append-param" : ""
+	},
+	"tippytipper": {
+		"relative-path"	: "APKs/CGO14ASE15/tippytipper.apk",
+		"append-param" : ""
+	},
+	"vlc": {
+		"relative-path"	: "APKs/CGO14ASE15/vlc.apk",
+		"append-param" : ""
+	},
+	"vudroid": {
+		"relative-path"	: "APKs/CGO14ASE15/vudroid.apk",
+		"append-param" : ""
+	},
+	"xbmc": {
+		"relative-path"	: "APKs/CGO14ASE15/xbmc.apk",
+		"append-param" : ""
+	}
+}

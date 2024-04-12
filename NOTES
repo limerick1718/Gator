@@ -1,0 +1,106 @@
+Version 3.8, latest release
+---
+
+1. Bug fixes and performance enhancements for GUI structural analysis and WTG construction
+
+Version 3.7, released on 7/26/2019
+---
+
+1. Bug fixes and performance enhancements, based on extensive testing with over 17K popular apps from Google Play
+2. Faster version of the GUI structural analysis (option -fast) useful for initial testing and debugging of client analyses
+3. Options to enable string analysis of GUI widget text properties
+
+Version 3.6, released on 5/22/2019
+---
+
+1. Bug fixes and performance enhancements, based on testing with 17K+ popular Android apps
+2. Support to run as a Docker container
+3. List of predefined 3rd party library classes excluded from the analysis scope
+
+Version 3.5, released on 8/23/2018
+---
+
+1. Bug fixes and performance enhancement of GATOR
+2. Build system is changed to Gradle
+3. GUIHierarchyPrinterClient will print out widget’s title
+4. Support of Android Eclipse projects is deprecated
+
+Version 3.4, released on 11/24/2017
+---
+
+1. Performance optimizations to reduce the cost of the GUI analyses
+
+Version 3.3, released on 7/27/2017
+---
+
+1. Handling of GUI event handlers defined in XML layout files
+2. Minor enhancements and bug fixes
+
+Version 3.2, released on 3/10/2017
+---
+
+1. Added support for Android Studio projects
+2. Stabilized support for APKs
+3. Added support for apps that require API level higher than android-17
+4. Added support for Android framework jars which are located in the
+5. Android SDK; compiling AOSP is no longer necessary
+6. Several bug fixes and optimizations
+
+Version 3.1, released on 3/14/2016
+---
+
+1. Static analysis to detect energy-related defects [CC16] together with the analyzed benchmarks for that paper
+2. A generic WTG [ASE15] traversal facility, to allow various clients to analyze valid paths in the WTG
+3. More substantial documentation, including details of the generic WTG traversal
+4. Additional details in the README file
+
+Version 3.0, released on 10/1/2015
+---
+
+1. Static analysis to construct the WTG [ASE15], as well as a sample client analysis
+2. Minor extensions and bug fixes
+3. Additional details in the README file
+
+Version 2.2, released on 4/16/2015
+---
+
+1. Replace dex2jar with dexpler (from Soot analysis framework) to preprocess APK files
+2. Optimizations of the control-flow analysis of callbacks described in [ICSE15]
+3. Minor tweaks and bug fixes
+4. Additional details added in the README file
+
+Version 2.1, released on 02/02/2015
+---
+
+1. Optimizations of the control-flow analysis of callbacks described in [ICSE15]
+2. Minor tweaks and bug fixes
+3. Additional details added in the README file
+
+Version 2.0, released on 02/02/2015
+---
+
+1. Static context-sensitive control-flow analysis of callbacks [ICSE15]
+2. Minor extensions in the analysis of XML layout files
+
+Version 1.2, released on 10/27/2014
+---
+
+1. Allows analysis of APK files, using a pre-processing step
+2. Minor fixes/extensions in the analysis and the app configurations
+3. Splitting the analysis and the benchmark Android programs into two archives (gator-1.2 and bench-1.2), in order to reduce download size
+
+Version 1.1, released on 07/10/2014
+---
+
+This release corresponds to the analysis described in Chapter 5 of Dacong Yan's PhD dissertation (an extended version of [CGO14]).
+
+1. An easier way to write client analysis without hard-coding
+2. A more precise resolution of listener objects
+3. Handling of additional Android features (e.g., dialogs)
+4. A new client that prints the GUI hierarchy of activities, menus, and dialogs, and prints the event handlers associated with the GUI objects
+5. Miscellaneous bug fixes and code cleanup
+
+Version 1.0, released on 02/16/2014
+---
+
+This release corresponds to the GUI analysis described in [CGO14] plus handling of some additional Android features (e.g., menus).

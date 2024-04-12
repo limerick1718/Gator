@@ -1,0 +1,25 @@
+GATOR Program Analysis Toolkit For Android
+
+This release includes the source code for the static analyses
+described in our CGO'14, ICSE'15, ASE'15 and CC'16 papers.
+
+The directory structure is as follows:
+
+- README: this file.
+
+- LICENSE: license for the software components developed at OSU: (1)
+  GATOR, and (2) accompanying scripts to run the analysis.
+
+- NOTES: release notes.
+
+- HOWTO.pdf: documentation and instructions of GATOR.
+
+- Dockerfile: used for running GATOR in Docker containers.
+
+- gator: source code for the static analysis component of GATOR,
+  including work from CGO'14, ICSE'15, ASE'15, and CC'16 as well as
+  various extensions and bug fixes.
+
+- AndroidBench: APKs of apps used in the CGO'14/ASE'15 and CC'16
+  papers.
+
